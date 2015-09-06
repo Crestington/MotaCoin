@@ -2667,7 +2667,7 @@ bool LoadBlockIndex(bool fAllowNew)
         if (!fAllowNew)
             return false;
 
-        const char* pszTimestamp = "Air Asia jet loses contact with air traffic control";
+        const char* pszTimestamp = "Hollywood Agency Shopping Rights to Mt Gox Movie";
         CTransaction txNew;
         txNew.nTime = 1419838620;
         txNew.vin.resize(1);
@@ -2679,7 +2679,7 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1419838620;
+        block.nTime    = 1441571835;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
         block.nNonce   = 353539;
         if(fTestNet)
