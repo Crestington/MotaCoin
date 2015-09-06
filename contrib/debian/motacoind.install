@@ -1,0 +1,2 @@
+debian/bin/motacoind usr/bin
+src/motacoind usr/lib/motacoin
