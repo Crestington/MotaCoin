@@ -61,8 +61,8 @@ static const int fHaveUPnP = true;
 static const int fHaveUPnP = false;
 #endif
 
-static const uint256 hashGenesisBlock("00000174b4ac95cc6334f5fe62e951dda9fcf930601df174f2940d990aa1a563");
-static const uint256 hashGenesisBlockTestNet("00000174b4ac95cc6334f5fe62e951dda9fcf930601df174f2940d990aa1a563");
+static const uint256 hashGenesisBlock("");
+static const uint256 hashGenesisBlockTestNet("");
 
 //static const uint256 CheckBlock1 ("0"); // Checkpoint at block 0
 inline int64_t GetClockDrift(int64_t nTime)
