@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=MotaCoin
+Comment=MotaCoin
+Exec=/usr/bin/MotaCoin-qt %u
+Terminal=false
+Type=Application
+Icon=MotaCoin
+MimeType=x-scheme-handler/motacoin;
+Categories=Office;
