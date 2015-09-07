@@ -39,7 +39,7 @@ static const int64_t MIN_TX_FEE = 10000;
 static const int64_t SOFT_MIN_TX_FEE = 5 * CENT;
 static const int64_t MIN_RELAY_TX_FEE = MIN_TX_FEE;
 static const int64_t MAX_MONEY = 20000000 * COIN;
-static const int64_t MAX_MINT_PROOF_OF_STAKE = 50 * CENT; // 50% per year
+static const int64_t MAX_MINT_PROOF_OF_STAKE = 12 * CENT; // 50% per year
 static const int64_t MAX_MINT_PROOF_OF_STAKE2 = 100 * CENT; // 100% per year
 static const int MAX_TIME_SINCE_BEST_BLOCK = 10; // how many seconds to wait before sending next PushGetBlocks()
 
