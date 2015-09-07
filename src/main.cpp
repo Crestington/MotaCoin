@@ -2669,7 +2669,7 @@ bool LoadBlockIndex(bool fAllowNew)
 
         const char* pszTimestamp = "Hollywood Agency Shopping Rights to Mt Gox Movie";
         CTransaction txNew;
-        txNew.nTime = 1419838620;
+        txNew.nTime = 1441668829;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -2679,9 +2679,9 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1441661445;
+        block.nTime    = 1441668829;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = 1021807;
+        block.nNonce   = 0;
         if(fTestNet)
         {
             block.nNonce   = 0;
@@ -2708,7 +2708,7 @@ bool LoadBlockIndex(bool fAllowNew)
         printf("block.nNonce = %u \n", block.nNonce);
 
         //// debug print
-        assert(block.hashMerkleRoot == uint256("f8539b02a814c963c03407473feac762ba33ee9fb52a0e3ceb94974a70382fa3"));
+        assert(block.hashMerkleRoot == uint256(""));
         block.print();
         assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
         assert(block.CheckBlock());
@@ -2988,7 +2988,7 @@ bool static AlreadyHave(CTxDB& txdb, const CInv& inv)
 // The message start string is designed to be unlikely to occur in normal data.
 // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
 // a large 4-byte int at any alignment.
-unsigned char pchMessageStart[4] = { 0x4b, 0x3c, 0x3b, 0x2d };
+unsigned char pchMessageStart[4] = { 0x41, 0x2c, 0x3c, 0x1d };
 
 bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
 {
