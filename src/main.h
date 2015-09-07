@@ -44,7 +44,7 @@ static const int64_t MAX_MINT_PROOF_OF_STAKE2 = 100 * CENT; // 100% per year
 static const int MAX_TIME_SINCE_BEST_BLOCK = 10; // how many seconds to wait before sending next PushGetBlocks()
 
 static const unsigned int REWARD_SWITCH_TIME = 1422918000; // 02/02/2015 @ 11:00pm (UTC)
-static const unsigned int BLOCK_SWITCH_TIME = 1430438400; // 05/01/2015 @ 12:00am (UTC)
+static const unsigned int BLOCK_SWITCH_TIME = 1442188800; // 05/01/2015 @ 12:00am (UTC)
 static const int MODIFIER_INTERVAL_SWITCH = 7200; // start POS 500 blocks before end of PoW to ensure smooth transition
 
 inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
