@@ -37,7 +37,7 @@ unsigned int nTransactionsUpdated = 0;
 map<uint256, CBlockIndex*> mapBlockIndex;
 set<pair<COutPoint, unsigned int> > setStakeSeen;
 
-static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // "standard" scrypt target limit for proof of work, results with 0,000244140625 proof-of-work difficulty
+static CBigNum bnProofOfWorkLimit(~uint256(0) >> 16); // "standard" scrypt target limit for proof of work, results with 0,000244140625 proof-of-work difficulty
 static CBigNum bnProofOfStakeLimit(~uint256(0) >> 24);
 
 static CBigNum bnProofOfWorkLimitTestNet(~uint256(0) >> 16);
