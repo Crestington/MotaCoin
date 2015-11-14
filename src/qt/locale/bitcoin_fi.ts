@@ -4,7 +4,7 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About MotaCoin</source>
-        <translation>Tietoa PayConista</translation>
+        <translation>Tietoa MotaCoinista</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -14,7 +14,7 @@
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2012-2014 The MotaCoin developers
+Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The MotaCoin developers</source>
         <translation type="unfinished"/>
     </message>
@@ -377,7 +377,7 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="+6"/>
         <source>Show information about MotaCoin</source>
-        <translation>Näytä tietoja PayConista</translation>
+        <translation>Näytä tietoja MotaCoinista</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -432,7 +432,7 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="+47"/>
         <source>Modify configuration options for MotaCoin</source>
-        <translation>Mukauta PayConin konfigurointiasetuksia</translation>
+        <translation>Mukauta MotaCoinin konfigurointiasetuksia</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -482,7 +482,7 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="+180"/>
         <source>&amp;About MotaCoin</source>
-        <translation>&amp;Tietoa PayConista</translation>
+        <translation>&amp;Tietoa MotaCoinista</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1561,7 +1561,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="+7"/>
         <source>Show the MotaCoin-Qt help message to get a list with possible MotaCoin command-line options.</source>
-        <translation>Näytä MotaCoin-Qt:n avustusohje saadaksesi listan käytettävistä PayConin komentokehotteen määritteistä.</translation>
+        <translation>Näytä MotaCoin-Qt:n avustusohje saadaksesi listan käytettävistä MotaCoinin komentokehotteen määritteistä.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1586,7 +1586,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="+25"/>
         <source>MotaCoin Core</source>
-        <translation>PayConin ydin</translation>
+        <translation>MotaCoinin ydin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1606,7 +1606,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
         <source>Welcome to the MotaCoin RPC console.</source>
-        <translation>Tervetuloa PayConin RPC-konsoliin.</translation>
+        <translation>Tervetuloa MotaCoinin RPC-konsoliin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1764,8 +1764,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a MotaCoin address (e.g. PfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Syötä MotaCoin-osoite (esim. PfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a MotaCoin address (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Syötä MotaCoin-osoite (esim. CfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1908,8 +1908,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. PfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Osoite, johon maksu lähetetään (esim. PfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to send the payment to  (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Osoite, johon maksu lähetetään (esim. CfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1938,8 +1938,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a MotaCoin address (e.g. PfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Syötä MotaCoin-osoite (esim. PfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a MotaCoin address (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Syötä MotaCoin-osoite (esim. CfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1962,8 +1962,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. PfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Osoite, jolle viesti kirjataan (esim. PfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Osoite, jolle viesti kirjataan (esim. CfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2026,8 +2026,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. PfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Osoite, jolla viesti on allekirjoitettu (esim. PfwYhBmGXcFP2Po1NpRUEiK8km2) </translation>
+        <source>The address the message was signed with (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Osoite, jolla viesti on allekirjoitettu (esim. CfwYhBmGXcFP2Po1NpRUEiK8km2) </translation>
     </message>
     <message>
         <location line="+40"/>
@@ -2042,8 +2042,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a MotaCoin address (e.g. PfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Syötä MotaCoin-osoite (esim. PfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a MotaCoin address (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Syötä MotaCoin-osoite (esim. CfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2624,7 +2624,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
         <source>MotaCoin version</source>
-        <translation>PayConin versio</translation>
+        <translation>MotaCoinin versio</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2633,8 +2633,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or PayCond</source>
-        <translation>Syötä komento kohteeseen -server tai PayCond</translation>
+        <source>Send command to -server or MotaCoind</source>
+        <translation>Syötä komento kohteeseen -server tai MotaCoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2658,7 +2658,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: PayCond.pid)</source>
+        <source>Specify pid file (default: MotaCoind.pid)</source>
         <translation>Määritä prosessitiedosto (oletus: MotaCoin.pid)</translation>
     </message>
     <message>
@@ -2998,7 +2998,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=PayConrpc
+rpcuser=MotaCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3009,7 +3009,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MotaCoin Alert&quot; admin@foo
         <translation>%s, sinun on asetettava rpcpassword asetustiedostoon:
 %s
 On suositeltavaa, että käytät seuraavaa arvottua salasanaa:
-rpcuser=PayConrpc
+rpcuser=MotaCoinrpc
 rpcpassword=%s
 (Sinun ei tarvitse muistaa tätä salasanaa)
 Käyttäjänimen ja salasanan EI TULE OLLA SAMOJA.

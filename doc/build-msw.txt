@@ -153,10 +153,10 @@ mingw32-make
 
 Create libleveldb.a and libmemenv.a.
 ------------------------------------
-For this we have Paycon in C:/Paycon
+For this we have MotaCoin in C:/MotaCoin
 In Msys shell. 
 
-cd /C/motacoin/src/leveldb
+cd /C/MotaCoin/src/leveldb
 TARGET_OS=NATIVE_WINDOWS make libleveldb.a libmemenv.a
 
 
@@ -164,7 +164,7 @@ TARGET_OS=NATIVE_WINDOWS make libleveldb.a libmemenv.a
 Compile the Windows QT.
 -----------------------
 
-Edit the motacoin-qt.pro file and add the following code above OBJECTS_DIR = build
+Edit the MotaCoin-qt.pro file and add the following code above OBJECTS_DIR = build
 
 BOOST_LIB_SUFFIX=-mgw49-mt-s-1_55
 BOOST_INCLUDE_PATH=C:/deps/boost_1_55_0
@@ -180,15 +180,15 @@ QRENCODE_LIB_PATH=C:/deps/qrencode-3.4.4/.libs
 
 In cmd run
 set PATH=%PATH%;C:\Qt\4.8.6\bin
-cd C:\motacoin\
-qmake "USE_QRCODE=1" "USE_UPNP=1" "USE_IPV6=1" motacoin-qt.pro
+cd C:\MotaCoin\
+qmake "USE_QRCODE=1" "USE_UPNP=1" "USE_IPV6=1" MotaCoin-qt.pro
 mingw32-make -f Makefile.Release
 
-Your Paycon.exe will be in the release folder of the source code.
+Your MotaCoin.exe will be in the release folder of the source code.
 
-Compiling Paycond.
+Compiling MotaCoind.
 -------------------
-Navigate to  C:\motacoin\src\makefile.mingw and open with your text editor. Make sure all the deps point to the correct path.
+Navigate to  C:\MotaCoin\src\makefile.mingw and open with your text editor. Make sure all the deps point to the correct path.
 
 BOOST_SUFFIX?=-mgw49-mt-s-1_55
 
@@ -219,9 +219,9 @@ LIBS= \
  -l crypto
 
 
-In the Msys shell, you can now compile motacoind.
+In the Msys shell, you can now compile MotaCoind.
 
 Code:
-cd /c/motacoin/src
+cd /c/MotaCoin/src
 make -f makefile.mingw
-strip motacoind.exe
+strip MotaCoind.exe

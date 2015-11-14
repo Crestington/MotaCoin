@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.1">
+﻿<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.1">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -14,11 +14,11 @@
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2012-2014 The MotaCoin developers
+Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The MotaCoin developers</source>
         <translation>版权所有 © 2009-2014 比特币Bitcoin开发组
 版权所有 © 2012-2014 新星币Novacoin开发组
-版权所有 © 2014 黑币PayCon开发组</translation>
+版权所有 © 2014 黑币MotaCoin开发组</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1076,7 +1076,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
         <source>MotaCoin-Qt</source>
-        <translation>黑币客户端PayCon-Qt</translation>
+        <translation>黑币客户端MotaCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1674,8 +1674,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 CON</source>
-        <translation>123.456 CON {0.00 ?}</translation>
+        <source>0.00 MOTA</source>
+        <translation>123.456 MOTA {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1744,8 +1744,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 CON</source>
-        <translation>123.456 CON</translation>
+        <source>123.456 MOTA</source>
+        <translation>123.456 MOTA</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1759,8 +1759,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a MotaCoin address (e.g. PfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>输入黑币地址(例如：PfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a MotaCoin address (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>输入黑币地址(例如：CfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1903,8 +1903,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. PfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>收款人地址(例：PfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to send the payment to  (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>收款人地址(例：CfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1933,8 +1933,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a MotaCoin address (e.g. PfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>输入一个黑币地址 (例：PfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a MotaCoin address (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>输入一个黑币地址 (例：CfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1957,8 +1957,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. PfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>用来签名该消息的地址(例： PfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>用来签名该消息的地址(例： CfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2021,8 +2021,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. PfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>用来签名该消息的黑币地址(例： PfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address the message was signed with (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>用来签名该消息的黑币地址(例： CfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -2037,8 +2037,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a MotaCoin address (e.g. PfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>输入黑币地址(例： PfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a MotaCoin address (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>输入黑币地址(例： CfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2628,8 +2628,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or PayCond</source>
-        <translation>向-server服务器或PayCond发送命令</translation>
+        <source>Send command to -server or MotaCoind</source>
+        <translation>向-server服务器或MotaCoind发送命令</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2656,8 +2656,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: PayCond.pid)</source>
-        <translation>指定pid文件(默认: PayCond.pid)</translation>
+        <source>Specify pid file (default: MotaCoind.pid)</source>
+        <translation>指定pid文件(默认: MotaCoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3001,7 +3001,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=PayConrpc
+rpcuser=MotaCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3012,7 +3012,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MotaCoin Alert&quot; admin@foo
         <translation>%s, 必须在配置文件里设置rpc密码:
  %s
 建议使用如下的随机密码:
-rpcuser=PayConrpc
+rpcuser=MotaCoinrpc
 rpcpassword=%s
 (不需要记住该密码)
 用户名和密码不能重复。

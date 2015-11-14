@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2015 MotaCoin Developers
+// Copyright (c) 2013-2015 NovaCoin Developers
 // Copyright (c) 2015 The MotaCoin developers
 
 #include <string.h>

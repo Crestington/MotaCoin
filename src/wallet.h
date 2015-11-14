@@ -127,7 +127,7 @@ public:
 		fStakeForCharity = false;
         nStakeForCharityPercent = 0;
         StakeForCharityAddress = "";
-		nStakeSplitThreshold = 500;
+		nStakeSplitThreshold = 1000;
 		nAmountSelected = 0;
 		strBestAddress = "";
 		fCombine = false;
@@ -156,7 +156,7 @@ public:
 		fStakeForCharity = false;
         nStakeForCharityPercent = 0;
         StakeForCharityAddress = "";
-		nStakeSplitThreshold = 500;
+		nStakeSplitThreshold = 1000;
 		nAmountSelected = 0;
 		strBestAddress = "";
 		fCombine = false;

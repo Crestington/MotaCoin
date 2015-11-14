@@ -14,10 +14,10 @@
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2012-2014 The MotaCoin developers
+Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The MotaCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2012-2014 The MotaCoin developers
+Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The MotaCoin developers</translation>
     </message>
     <message>
@@ -1766,8 +1766,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a MotaCoin address (e.g. PfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Indtast en MotaCoin-adresse (f.eks PfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a MotaCoin address (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Indtast en MotaCoin-adresse (f.eks CfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1910,8 +1910,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. PfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Adressen til at sende betalingen til (f.eks PfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to send the payment to  (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Adressen til at sende betalingen til (f.eks CfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1940,8 +1940,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a MotaCoin address (e.g. PfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Indtast en MotaCoin-adresse (f.eks PfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a MotaCoin address (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Indtast en MotaCoin-adresse (f.eks CfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1964,8 +1964,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. PfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Adresse til at underskrive meddelelsen med (f.eks PfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Adresse til at underskrive meddelelsen med (f.eks CfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2028,8 +2028,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. PfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Adressen meddelelse blev underskrevet med (f.eks PfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address the message was signed with (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Adressen meddelelse blev underskrevet med (f.eks CfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -2044,8 +2044,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a MotaCoin address (e.g. PfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Indtast en MotaCoin-adresse (f.eks PfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a MotaCoin address (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Indtast en MotaCoin-adresse (f.eks CfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2635,8 +2635,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or PayCond</source>
-        <translation>Send kommando til-server eller PayCond</translation>
+        <source>Send command to -server or MotaCoind</source>
+        <translation>Send kommando til-server eller MotaCoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2660,8 +2660,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: PayCond.pid)</source>
-        <translation>Angiv pid fil (standard: PayCond.pid)</translation>
+        <source>Specify pid file (default: MotaCoind.pid)</source>
+        <translation>Angiv pid fil (standard: MotaCoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3000,7 +3000,7 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=PayConrpc
+rpcuser=MotaCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3011,7 +3011,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MotaCoin Alert&quot; admin@foo
         <translation>% s, skal du indstille et rpcpassword i konfigurationsfilen: 
 % s 
 Det anbefales at bruge følgende tilfældig adgangskode: 
-rpcuser = PayConrpc  
+rpcuser = MotaCoinrpc  
 rpcpassword =% s  
 (du behøver ikke at huske denne adgangskode)  
 Brugernavn og adgangskode må ikke være den samme.  

@@ -14,7 +14,7 @@
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2012-2014 The MotaCoin developers
+Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The MotaCoin developers</source>
         <translation type="unfinished"/>
     </message>
@@ -39,7 +39,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
         <source>Address Book</source>
-        <translation>Adresář</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+22"/>
@@ -59,12 +59,12 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message>
         <location line="-11"/>
         <source>&amp;New Address</source>
-        <translation>&amp;Nová adresa</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-46"/>
         <source>These are your MotaCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto jsou vaše MotaCoin adresy pro příjem plateb. Možná budete chtít dát jinou adresu každému odesílateli, takže můžete sledovat, kdo vám zasílá platbu.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+60"/>
@@ -74,17 +74,17 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message>
         <location line="+11"/>
         <source>Show &amp;QR Code</source>
-        <translation>Zobrazit &amp;QR kód</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+11"/>
         <source>Sign a message to prove you own a MotaCoin address</source>
-        <translation>Podepsat zprávu k prokázání vlastnictví MotaCoin adresy.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation>Podepsat &amp;zprávu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
@@ -94,12 +94,12 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message>
         <location line="-14"/>
         <source>Verify a message to ensure it was signed with a specified MotaCoin address</source>
-        <translation>Ověřte zprávu, že byla podepsána s určitou MotaCoin adresou</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Ověřit zprávu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+14"/>
@@ -119,7 +119,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message>
         <location line="+250"/>
         <source>Export Address Book Data</source>
-        <translation>Exportovat adresář</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
@@ -129,12 +129,12 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message>
         <location line="+13"/>
         <source>Error exporting</source>
-        <translation>Chyba exportu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>Nelze zapisovat do souboru %1.</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -235,7 +235,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>Upozornění: Pokud zašifrujete vaši peněženku a ztratíte přístupové heslo, &lt;b&gt;PŘIJDETE O VŠECHNY SVÉ MINCE&lt;/b&gt;!</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+0"/>
@@ -262,7 +262,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message>
         <location line="-58"/>
         <source>MotaCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-         <translation>Peněženka se nyní zavře a dokončí proces šifrování. Nezapomeňte, že šifrování vaši peněženku nemůže plně chránit před krádeží pokud máte v počítači napadení malware.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+13"/>
@@ -341,42 +341,27 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message>
         <location line="+5"/>
         <source>&amp;Address Book</source>
-        <translation>&amp;Adresář</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Edit the list of stored addresses and labels</source>
-        <translation>Úprava seznamu uložených adres.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>View statistics</source>
-        <translation>Zobrazit statistiky.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Explore the BlockChain</source>
-        <translation>Prohlížeč bloků.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>View chat</source>
-        <translation>Zobrazit chat.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-13"/>
         <source>&amp;Receive coins</source>
-        <translation>&amp;Přijmout mince</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Show the list of addresses for receiving payments</source>
-        <translation>Zobrazit seznam adres pro příjem plateb</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-7"/>
         <source>&amp;Send coins</source>
-        <translation>&amp;Odeslat mince</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+35"/>
@@ -391,7 +376,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message>
         <location line="+6"/>
         <source>Show information about MotaCoin</source>
-         <translation>Zobraz informace o PayConu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
@@ -426,12 +411,12 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message numerus="yes">
         <location line="+259"/>
         <source>~%n block(s) remaining</source>
-        <translation><numerusform>1 blok zbývá</numerusform><numerusform>~%n blok(ů) zbývá</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Downloaded %1 of %2 blocks of transaction history (%3% done).</source>
-         <translation>Stahuji %1 of %2 bloků z transakční historie (%3% hotovo).</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-256"/>
@@ -441,21 +426,22 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message>
         <location line="-64"/>
         <source>Send coins to a MotaCoin address</source>
-        <translation>Odeslat mince na MotaCoin adresu</translation>    </message>
+        <translation type="unfinished"/>
+    </message>
     <message>
         <location line="+47"/>
         <source>Modify configuration options for MotaCoin</source>
-         <translation>Změnit položky nastavení</translation> 
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+18"/>
         <source>Export the data in the current tab to a file</source>
-         <translation>Exportovat data z aktuální karty do souboru</translation> 
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-14"/>
         <source>Encrypt or decrypt wallet</source>
-        <translation>Šifrovat nebo dešifrovat peněženku.</translation> 
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
@@ -505,17 +491,17 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message>
         <location line="+9"/>
         <source>Unlock wallet</source>
-        <translation>Odemkni peněženku</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Lock Wallet</source>
-        <translation>Zamknout peněženku</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Lock wallet</source>
-        <translation>Zamknout peněženku</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+35"/>
@@ -540,7 +526,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message>
         <location line="+8"/>
         <source>Actions toolbar</source>
-        <translation>Panel akce</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+13"/>
@@ -552,77 +538,77 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
         <location line="+0"/>
         <location line="+60"/>
         <source>MotaCoin client</source>
-        <translation>MotaCoin klient</translation>
+        <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location line="+75"/>
         <source>%n active connection(s) to MotaCoin network</source>
-        <translation><numerusform>%n aktivní spojení do PayConové sítě</numerusform><numerusform>%n aktivní spojení do PayConové sítě</numerusform><numerusform>%n aktivních spojení do PayConové sítě</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Downloaded %1 blocks of transaction history.</source>
-       <translation>Zpracováno %1 bloků transakční historie.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+413"/>
         <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation>Sázky.&lt;br&gt;Vaše váha je %1&lt;br&gt;Váha sítě je %2&lt;br&gt;Odhadovaný čas pro zisk odměny je %3</translation>
-        </message>
+        <translation type="unfinished"/>
+    </message>
     <message>
         <location line="+6"/>
         <source>Not staking because wallet is locked</source>
-         <translation>Nelze sázet, protože peněženka je uzamčena</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
         <source>Not staking because wallet is offline</source>
-        <translation>Nelze sázet, protože peněženka je offline</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
         <source>Not staking because wallet is syncing</source>
-        <translation>Nelze sázet, protože peněženka se synchronizuje</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
         <source>Not staking because you don&apos;t have mature coins</source>
-        <translation>Nelze sázet, protože nemáte mateřské mince</translation>
+        <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location line="-403"/>
         <source>%n second(s) ago</source>
-        <translation><numerusform>sekundou</numerusform><numerusform>%n sekundami</numerusform><numerusform>%n sekundami</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <location line="-312"/>
         <source>About MotaCoin card</source>
-        <translation>O PayConu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Show information about MotaCoin card</source>
-        <translation>Zobrazit informace o PayConu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+18"/>
         <source>&amp;Unlock Wallet...</source>
-        <translation>Odemknout peněženku...</translation>
+        <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location line="+297"/>
         <source>%n minute(s) ago</source>
-        <translation><numerusform>minutou</numerusform><numerusform>%n minutami</numerusform><numerusform>%n minutami</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n hour(s) ago</source>
-        <translation><numerusform>shodinou</numerusform><numerusform>%n hodinami</numerusform><numerusform>%n hodinami</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n day(s) ago</source>
-        <translation><numerusform>dnem</numerusform><numerusform>%n dny</numerusform><numerusform>%n dny</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <location line="+6"/>
@@ -637,18 +623,17 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message>
         <location line="+10"/>
         <source>Last received block was generated %1.</source>
-        <translation>Poslední obdržený blok byl generován před %1.</translation>
-        <translation>Poslední obdržený blok byl generován před %1.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+59"/>
         <source>This transaction is over the size limit.  You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network.  Do you want to pay the fee?</source>
-        <translation>Tahle transakce přesahuje velikostní limit. I tak ji ale můžeš poslat, pokud za ni zaplatíš poplatek %1, který půjde uzlům, které tvou transakci zpracují, a navíc tak podpoříš síť. Chceš zaplatit poplatek?</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+5"/>
         <source>Confirm transaction fee</source>
-        <translation>Potvrď transakční poplatek</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+27"/>
@@ -677,7 +662,7 @@ Adresa: %4
         <location line="+100"/>
         <location line="+15"/>
         <source>URI handling</source>
-        <translation>Zpracování URI</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-15"/>
@@ -688,7 +673,7 @@ Adresa: %4
     <message>
         <location line="+18"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Peněženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálně &lt;b&gt;odemčená pro sázky&lt;/b&gt;</translation>
+        <translation>Peněženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálně &lt;b&gt;odemčená&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -698,32 +683,32 @@ Adresa: %4
     <message>
         <location line="+25"/>
         <source>Backup Wallet</source>
-        <translation>Záloha peněženky</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+0"/>
         <source>Wallet Data (*.dat)</source>
-        <translation>Data peněženky (*.dat)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>Backup Failed</source>
-        <translation>Zálohování selhalo</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+0"/>
         <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>Při ukládání peněženky na nové místo se přihodila nějaká chyba.</translation>
+        <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location line="+76"/>
         <source>%n second(s)</source>
-        <translation><numerusform>sekundu</numerusform><numerusform>%n sekund</numerusform><numerusform>%n sekund</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>minutu</numerusform><numerusform>%n minut</numerusform><numerusform>%n minut</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
@@ -738,12 +723,12 @@ Adresa: %4
     <message>
         <location line="+18"/>
         <source>Not staking</source>
-        <translation>Bez sázek</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
         <source>A fatal error occurred. MotaCoin can no longer continue safely and will quit.</source>
-       <translation>Stala se fatální chyba. UPayCon nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -759,17 +744,17 @@ Adresa: %4
     <message>
         <location filename="../forms/coincontroldialog.ui" line="+14"/>
         <source>Coin Control</source>
-        <translation>Kontrola mincí</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+31"/>
         <source>Quantity:</source>
-        <translation>Počet:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+32"/>
         <source>Bytes:</source>
-        <translation>Bytů:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+48"/>
@@ -779,47 +764,47 @@ Adresa: %4
     <message>
         <location line="+32"/>
         <source>Priority:</source>
-        <translation>Priorita:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+48"/>
         <source>Fee:</source>
-        <translation>Poplatek:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+35"/>
         <source>Low Output:</source>
-        <translation>Nízký výkon:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="+551"/>
         <source>no</source>
-        <translation>Není</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="+51"/>
         <source>After Fee:</source>
-         <translation>Po poplatku:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+35"/>
         <source>Change:</source>
-        <translation>Změna:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+69"/>
         <source>(un)select all</source>
-        <translation>(Od)značit vše</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+13"/>
         <source>Tree mode</source>
-        <translation>Režim stromu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+16"/>
         <source>List mode</source>
-         <translation>Režim seznam</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+45"/>
@@ -829,7 +814,7 @@ Adresa: %4
     <message>
         <location line="+5"/>
         <source>Label</source>
-        <translation>Název</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+5"/>
@@ -844,7 +829,7 @@ Adresa: %4
     <message>
         <location line="+5"/>
         <source>Confirmations</source>
-         <translation>Potvrzení</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
@@ -854,7 +839,7 @@ Adresa: %4
     <message>
         <location line="+5"/>
         <source>Priority</source>
-        <translation>Priorita</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="-515"/>
@@ -880,72 +865,72 @@ Adresa: %4
     <message>
         <location line="+24"/>
         <source>Copy quantity</source>
-        <translation>Kopíruj množství</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
         <source>Copy fee</source>
-        <translation>Kopíruj poplatek</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy after fee</source>
-        <translation>Kopíruj po poplatku</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy bytes</source>
-        <translation>Kopíruj byty</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy priority</source>
-        <translation>Kopíruj prioritu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy low output</source>
-        <translation>Kopíruj nízký výstup</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy change</source>
-        <translation>Kopíruj změnu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+317"/>
         <source>highest</source>
-        <translation>nejvyšší</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>high</source>
-        <translation>vysoká</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>medium-high</source>
-         <translation>středně vysoká</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>medium</source>
-        <translation>středí</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+4"/>
         <source>low-medium</source>
-        <translation>středně nízká</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>low</source>
-        <translation>nízká</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>lowest</source>
-        <translation>nejnižší</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+155"/>
@@ -955,7 +940,7 @@ Adresa: %4
     <message>
         <location line="+0"/>
         <source>yes</source>
-        <translation>ano</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+10"/>
@@ -964,11 +949,7 @@ Adresa: %4
  This means a fee of at least %1 per kb is required.
 
  Can vary +/- 1 Byte per input.</source>
-        <translation>Tato značka zčervená, v případě, že velikost transakce je větší než 10000 bajtů.
-
-  To znamená, že je nutné poplatek ve výši nejméně %1 za kb.
-
-  Může se lišit + / - 1 bajt na vstupu.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
@@ -977,11 +958,7 @@ Adresa: %4
 This label turns red, if the priority is smaller than &quot;medium&quot;.
 
  This means a fee of at least %1 per kb is required.</source>
-         <translation>Transakce s vysokou prioritou jsou více pravděpodobné.
-
-Štítek se zbarví červeně, pokud vaše prioritou je nižší než "průměrná".
-
-To znamená, že minimálně %1 za kb jsou povinné</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
@@ -990,20 +967,14 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
  This means a fee of at least %2 is required. 
 
  Amounts below 0.546 times the minimum relay fee are shown as DUST.</source>
-        <translation>Tato značka zčervená, pokud příjemce obdrží částku menší než %1.
-
-  To znamená, že je nutné poplatek alespoň %2.
-
-  Částky nižší než 0,546 násobek minimální poplatek relé jsou zobrazeny jako DUST.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>This label turns red, if the change is smaller than %1.
 
  This means a fee of at least %2 is required.</source>
-    <translation>Tato značka zčervená, v případě, že změna je menší než 1%.
-
-  To znamená, že je nutné poplatek alespoň 2%.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+37"/>
@@ -1014,12 +985,12 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="-9"/>
         <source>change from %1 (%2)</source>
-        <translation>změna z %1 (%2)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>(change)</source>
-        <translation>(změna)</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -1037,8 +1008,8 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+10"/>
         <source>The label associated with this address book entry</source>
-        <translation>Označení spojené s tímto záznamem v adresáři</translation>
-        </message>
+        <translation type="unfinished"/>
+    </message>
     <message>
         <location line="+7"/>
         <source>&amp;Address</source>
@@ -1047,7 +1018,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+10"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Adresa spojená s tímto záznamem v adresáři. Lze upravovat jen pro odesílací adresy.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="+20"/>
@@ -1077,7 +1048,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid MotaCoin address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; není platná MotaCoin adresa.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+10"/>
@@ -1101,37 +1072,37 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="-12"/>
         <source>version</source>
-        <translation>verze</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
         <source>Usage:</source>
-        <translation>Užití:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>command-line options</source>
-        <translation>možnosti příkazové řádky</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+4"/>
         <source>UI options</source>
-        <translation>Možnosti UI</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-         <translation>Nastavit jazyk, například &quot;de_DE&quot; (výchozí: systémové nastavení)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Start minimized</source>
-        <translation>Nastartovat minimalizovaně</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Show splash screen on startup (default: 1)</source>
-        <translation>Zobrazit startovací obrazovku (výchozí: 1)</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -1149,7 +1120,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+6"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
-        <translation>Dobrovolný transakční poplatek za každý započatý kB dopomáhá k rychlému zpracování tvých transakcí. Většina transakcí má do 1 kB.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+15"/>
@@ -1159,32 +1130,32 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+31"/>
         <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
-         <translation>Vyhrazené množství PayConů které se neúčastní sázek a proto je utratitelné kdykoliv.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+15"/>
         <source>Reserve</source>
-         <translation>Rezerva</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+31"/>
         <source>Automatically start MotaCoin after logging in to the system.</source>
-        <translation>Automaticky spustí MotaCoin po přihlášení do systému.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Start MotaCoin on system login</source>
-        <translation>S&amp;pustit MotaCoin po přihlášení do systému</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+7"/>
         <source>Detach block and address databases at shutdown. This means they can be moved to another data directory, but it slows down shutdown. The wallet is always detached.</source>
-        <translation>Odpojit databázi bloků a adres při vypnutí počítače. To znamená, že může být přesunuta do jiného adresáře dat, ale to zpomaluje vypnutí. Peněženka je vždy odpojena.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Detach databases at shutdown</source>
-        <translation>Odpojit databází při vypnutí</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+21"/>
@@ -1194,7 +1165,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+6"/>
         <source>Automatically open the MotaCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otevře potřebný port na routeru. Tohle funguje jen za předpokladu, že tvůj router podporuje UPnP a že je UPnP povolené.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
@@ -1204,12 +1175,12 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+7"/>
         <source>Connect to the MotaCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Připojí se do MotaCoin sítě přes SOCKS proxy (např. když se připojuje přes Tor).</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>&amp;Připojit přes SOCKS proxy:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+9"/>
@@ -1219,7 +1190,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+19"/>
         <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>IP adresa proxy (např. 127.0.0.1)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+7"/>
@@ -1279,7 +1250,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting MotaCoin.</source>
-        <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování MotaCoin.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+11"/>
@@ -1294,7 +1265,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+9"/>
         <source>Whether to show MotaCoin addresses in the transaction list or not.</source>
-        <translation>Zda ukazovat MotaCoin adresy ve výpisu transakcí nebo ne.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
@@ -1304,12 +1275,12 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+7"/>
         <source>Whether to show coin control features or not.</source>
-        <translation>Zda ukazovat rozšířenou správu mincí nebo ne.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>Display coin &amp;control features (experts only!)</source>
-         <translation>Zobrazit rozšířenou správu mincí. (Pouze pro odborníky!)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+71"/>
@@ -1324,7 +1295,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+10"/>
         <source>&amp;Apply</source>
-        <translation>&amp;Uložit</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="+55"/>
@@ -1335,13 +1306,13 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
         <location line="+149"/>
         <location line="+9"/>
         <source>Warning</source>
-        <translation>Upozornění</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-9"/>
         <location line="+9"/>
         <source>This setting will take effect after restarting MotaCoin.</source>
-        <translation>Nastavení se projeví až po restartování MotaCoin.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+29"/>
@@ -1360,17 +1331,17 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
         <location line="+33"/>
         <location line="+231"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MotaCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s MotaCoin sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-160"/>
         <source>Stake:</source>
-        <translation>Sázka:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+29"/>
         <source>Unconfirmed:</source>
-        <translation>Nepotvrzeno:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-107"/>
@@ -1380,7 +1351,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+49"/>
         <source>Spendable:</source>
-        <translation>K dispozici:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+16"/>
@@ -1415,12 +1386,12 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="-108"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Celkem z transakcí, které ještě nejsou potvrzené a které se ještě nezapočítávají do celkového stavu účtu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-29"/>
         <source>Total of coins that was staked, and do not yet count toward the current balance</source>
-        <translation>Celkem mince, které jsou vsazené a nejsou k dispozici.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+113"/>
@@ -1434,57 +1405,57 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="+14"/>
         <source>QR Code Dialog</source>
-        <translation>QR kód</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+59"/>
         <source>Request Payment</source>
-        <translation>Požadovat platbu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+56"/>
         <source>Amount:</source>
-        <translation>Částka:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-44"/>
         <source>Label:</source>
-        <translation>Název:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+19"/>
         <source>Message:</source>
-        <translation>Zpráva:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+71"/>
         <source>&amp;Save As...</source>
-        <translation>&amp;Ulož jako...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="+62"/>
         <source>Error encoding URI into QR Code.</source>
-        <translation>Chyba při kódování URI do QR kódu.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+40"/>
         <source>The entered amount is invalid, please check.</source>
-        <translation>Zadaná částka je neplatná, překontroluj ji prosím.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+23"/>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Výsledná URI je příliš dlouhá, zkus zkrátit text označení / zprávy.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
         <source>Save QR Code</source>
-        <translation>Ulož QR kód</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+0"/>
         <source>PNG Images (*.png)</source>
-        <translation>PNG obrázky (*.png)</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -1541,7 +1512,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+23"/>
         <source>On testnet</source>
-        <translation>V testnetu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+23"/>
@@ -1571,17 +1542,17 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+16"/>
         <source>Command-line options</source>
-        <translation>Argumenty z příkazové řádky</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+7"/>
         <source>Show the MotaCoin-Qt help message to get a list with possible MotaCoin command-line options.</source>
-        <translation>Seznam parametrů MotaCoin-Qt pro příkazovou řádku získáš v nápovědě.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Show</source>
-        <translation>&amp;Zobrazit</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+24"/>
@@ -1596,12 +1567,12 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="-104"/>
         <source>MotaCoin - Debug window</source>
-        <translation>MotaCoin - ladicí okno</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
         <source>MotaCoin Core</source>
-        <translation>Jádro MotaCoin</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+279"/>
@@ -1611,7 +1582,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+7"/>
         <source>Open the MotaCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otevři soubor s ladicími záznamy MotaCoin z aktuálního datového adresáře. U velkých logů to může pár vteřin zabrat.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+102"/>
@@ -1621,7 +1592,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
         <source>Welcome to the MotaCoin RPC console.</source>
-        <translation>Vítej v MotaCoin RPC konzoli.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
@@ -1651,27 +1622,27 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+76"/>
         <source>Coin Control Features</source>
-         <translation>Rozšířená kontrola mincí</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+20"/>
         <source>Inputs...</source>
-         <translation>Vstupy...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+7"/>
         <source>automatically selected</source>
-         <translation>Automaticky vybrané</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+19"/>
         <source>Insufficient funds!</source>
-        <translation>Nedostatek prostředků</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+77"/>
         <source>Quantity:</source>
-        <translation>Množství:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+22"/>
@@ -1682,7 +1653,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="-19"/>
         <source>Bytes:</source>
-        <translation>Bytů:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+51"/>
@@ -1700,42 +1671,42 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="-191"/>
         <source>Priority:</source>
-        <translation>Priorita:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+19"/>
         <source>medium</source>
-        <translation>střední</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+32"/>
         <source>Fee:</source>
-        <translation>Poplatek:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+35"/>
         <source>Low Output:</source>
-        <translation>Nízký výstup:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+19"/>
         <source>no</source>
-        <translation>není</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+32"/>
         <source>After Fee:</source>
-        <translation>Po polatku:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+35"/>
         <source>Change</source>
-        <translation>Změna:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+50"/>
         <source>custom change address</source>
-        <translation>vlastní změna adresy</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+106"/>
@@ -1750,7 +1721,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+20"/>
         <source>Remove all transaction fields</source>
-        <translation>Smaž všechny transakční formuláře</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
@@ -1779,13 +1750,13 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a MotaCoin address (e.g. Sjz75uKHzUQJnSszvdiifEGxseKkDhQToX)</source>
-         <translation>Zadej UPayCon adresu (např. H7QEPyCf1Yv8UZUALDda9bNYXuYbfMe9Lp)</translation>
+        <source>Enter a MotaCoin address (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+15"/>
         <source>Copy quantity</source>
-         <translation>Kopíruj množství</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
@@ -1795,37 +1766,37 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+1"/>
         <source>Copy fee</source>
-         <translation>Kopíruj poplatek</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy after fee</source>
-         <translation>Kopíruj po poplatku</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy bytes</source>
-         <translation>Kopíruj byty</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy priority</source>
-         <translation>Kopíruj prioritu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy low output</source>
-         <translation>Kopíruj nízký výstup</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy change</source>
-         <translation>Kopíruj změnu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+86"/>
         <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; pro %2 (%3)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+5"/>
@@ -1835,12 +1806,12 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+1"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>Jsi si jistý, že chceš poslat %1?</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+0"/>
         <source> and </source>
-        <translation> a </translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+29"/>
@@ -1870,17 +1841,17 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+5"/>
         <source>Error: Transaction creation failed.</source>
-        <translation>Chyba: Vytvoření transakce selhalo!</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Chyba: Transakce byla odmítnuta. Tohle může nastat, pokud nějaké mince z tvé peněženky už jednou byly utraceny, například pokud používáš kopii souboru wallet.dat a mince byly utraceny v druhé kopii, ale nebyly označeny jako utracené v této.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+251"/>
         <source>WARNING: Invalid MotaCoin address</source>
-        <translation>Chyba: Neplatná MotaCoin adresa!</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+13"/>
@@ -1890,7 +1861,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+4"/>
         <source>WARNING: unknown change address</source>
-        <translation>Chyba: Neznámá změna MotaCoin adresy!</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -1898,7 +1869,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="+14"/>
         <source>Form</source>
-        <translation>Formulář</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+15"/>
@@ -1923,13 +1894,13 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. Sjz75uKHzUQJnSdzvpiigEGxseKkDhQToX)</source>
+        <source>The address to send the payment to  (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+10"/>
         <source>Choose address from address book</source>
-        <translation>Adresa příjemce (např. P7QEPyCg1Yv3UZUALDhS9bVYXuYbfMe9Lp)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+10"/>
@@ -1949,12 +1920,12 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+7"/>
         <source>Remove this recipient</source>
-        <translation>Smaž tohoto příjemce</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a MotaCoin address (e.g. Sjz75uKHzUQJnSdzvpiigEGxseKkDhQToX)</source>
-        <translation>Zadej MotaCoin adresu (např. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
+        <source>Enter a MotaCoin address (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -1977,14 +1948,14 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. Sjz75uKHzUQJnSdzvpiigEGxseKkDhQToX)</source>
-        <translation>Adresa, kterou se zpráva podepíše (např. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
+        <source>The address to sign the message with (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+10"/>
         <location line="+203"/>
         <source>Choose an address from the address book</source>
-        <translation>Vyber adresu z adresáře</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-193"/>
@@ -2015,7 +1986,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+21"/>
         <source>Sign the message to prove you own this MotaCoin address</source>
-         <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této MotaCoin adresy</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+17"/>
@@ -2041,13 +2012,13 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. Sjz75uKHzUQJnSdzvpiigEGxseKkDhQToX)</source>
-        <translation>Adresa, kterou je zpráva podepsána (např. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
+        <source>The address the message was signed with (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+40"/>
         <source>Verify the message to ensure it was signed with the specified MotaCoin address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou MotaCoin adresou</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+17"/>
@@ -2057,7 +2028,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a MotaCoin address (e.g. Sjz75uKHzUQJnSdzvpiigEGxseKkDhQToX)</source>
+        <source>Enter a MotaCoin address (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2068,7 +2039,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+3"/>
         <source>Enter MotaCoin signature</source>
-        <translation>Vlož MotaCoin podpis</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+82"/>
@@ -2108,7 +2079,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+5"/>
         <source>Message signed.</source>
-        <translation>Zpráva podepsána.</translation>
+        <translation>Zpráv podepsána.</translation>
     </message>
     <message>
         <location line="+59"/>
@@ -2142,17 +2113,17 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location filename="../transactiondesc.cpp" line="+19"/>
         <source>Open until %1</source>
-        <translation>Otevřeno dokud %1</translation>
+        <translation>Otřevřeno dokud %1</translation>
     </message>
     <message numerus="yes">
         <location line="-2"/>
         <source>Open for %n block(s)</source>
-        <translation><numerusform>Otevřeno pro 1 další blok</numerusform><numerusform>Otevřeno pro %n další bloky</numerusform><numerusform>Otevřeno pro %n dalších bloků</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <location line="+8"/>
         <source>conflicted</source>
-         <translation>konflikt</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
@@ -2272,8 +2243,8 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Generated coins must mature 70 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Vygenerované mince musí čekat 70 bloků, než mohou být utraceny. Když jsi vygeneroval tenhle blok, tak byl rozposlán do sítě, aby byl přidán do řetězce bloků. Pokud se mu nepodaří dostat se do řetězce, změní se na &quot;neakceptovaný&quot; a nepůjde utratit. To se občas může stát, pokud jiný uzel vygeneruje blok zhruba ve stejném okamžiku jako ty.</translation>
+        <source>Generated coins must mature 510 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+7"/>
@@ -2298,12 +2269,12 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+1"/>
         <source>true</source>
-        <translation>v pořádku</translation>
+        <translation>true</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>false</source>
-        <translation>špatně</translation>
+        <translation>false</translation>
     </message>
     <message>
         <location line="-211"/>
@@ -2369,27 +2340,27 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+6"/>
         <source>Offline</source>
-        <translation>Offline</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>Unconfirmed</source>
-        <translation>Nepotvrzeno</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>Potvrzuji (%1 z %2 doporučených potvrzení)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+6"/>
         <source>Conflicted</source>
-        <translation>Konflikt</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>Nedozráno (%1 potvrzení, bude k dispozici po %2)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
@@ -2563,7 +2534,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+144"/>
         <source>Export Transaction Data</source>
-        <translation>Exportovat data transakce</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
@@ -2608,12 +2579,12 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+4"/>
         <source>Error exporting</source>
-        <translation>Chyba exportu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>Nemohu zapisovat do souboru %1.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+100"/>
@@ -2631,7 +2602,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location filename="../walletmodel.cpp" line="+206"/>
         <source>Sending...</source>
-        <translation>Posílám...</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -2639,7 +2610,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
         <source>MotaCoin version</source>
-        <translation>MotaCoin verze</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
@@ -2648,8 +2619,8 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or PayCond</source>
-        <translation>Poslat příkaz pro -server nebo PayCond</translation>
+        <source>Send command to -server or MotaCoind</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
@@ -2669,12 +2640,12 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+2"/>
         <source>Specify configuration file (default: MotaCoin.conf)</source>
-        <translation>Konfigurační soubor (výchozí: MotaCoin.conf)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: PayCond.pid)</source>
-        <translation>PID soubor (výchozí: PayCond.pid)</translation>
+        <source>Specify pid file (default: MotaCoind.pid)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
@@ -2694,12 +2665,12 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+1"/>
         <source>Set database disk log size in megabytes (default: 100)</source>
-        <translation>Nastavit velikost databázového souboru v megabajtech (výchozí: 100)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+6"/>
         <source>Listen for connections on &lt;port&gt; (default: 15714 or testnet: 25714)</source>
-        <translation>Čekat na spojení na &lt;portu&gt; (výchozí: 15714 nebo testnet: 25714)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
@@ -2719,12 +2690,12 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+5"/>
         <source>Bind to given address. Use [host]:port notation for IPv6</source>
-        <translation>Svázat na danou adresu. Použijte [hostitel]:port pro IPv6</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
         <source>Stake your coins to support network and gain reward (default: 1)</source>
-        <translation>Sázka mincí na podporu sítě a získat odměnu (výchozí: 1)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+5"/>
@@ -2744,23 +2715,22 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+51"/>
         <source>Detach block and address databases. Increases shutdown time (default: 0)</source>
-        <translation>Odpojit databázi bloků a adres. Zvyšuje vypínací čas (výchozí: 0)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+109"/>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Chyba: Transakce byla odmítnuta! Tohle může nastat, pokud nějaké mince z tvé peněženky už jednou byly utraceny, například pokud používáš kopii souboru wallet.dat a mince byly utraceny v druhé kopii, ale nebyly označeny jako utracené v této.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-5"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds  </source>
-        <translation>Chyba: Tahle transakce vyžaduje transakční poplatek nejméně %s kvůli velikosti zasílané částky, komplexnosti nebo použití nedávno přijatých mincí!</translation>
-   </message>
+        <translation type="unfinished"/>
+    </message>
     <message>
         <location line="-87"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 15715 or testnet: 25715)</source>
-        <translation>Čekat na JSON RPC spojení na &lt;portu&gt; (výchozí: 15715 nebo testnet: 25715)</translation>
-    
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-11"/>
@@ -2770,22 +2740,22 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+101"/>
         <source>Error: Transaction creation failed  </source>
-        <translation>Chyba: Vytvoření transakce selhalo!</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-5"/>
         <source>Error: Wallet locked, unable to create transaction  </source>
-        <translation>Chyba: Peněženka je zamčená, nemohu vytvořit transakci!</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-8"/>
         <source>Importing blockchain data file.</source>
-        <translation>Import datového souboru bloků.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Importing bootstrap blockchain data file.</source>
-         <translation>Import bootsrap datového souboru bloků.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-88"/>
@@ -2810,12 +2780,12 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+117"/>
         <source>Error initializing database environment %s! To recover, BACKUP THAT DIRECTORY, then remove everything from it except for wallet.dat.</source>
-        <translation>Chyba při inicializaci databázového prostředí %s! Chcete-li obnovit, ZÁLOHUJTE TENTO ADRESÁŘ, a pak smažte vše v adresáři, kromě wallet.dat!</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-20"/>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation>Nastavit maximální velikost prioritních/nízkopoplatkových transakcí v bajtech (výchozí: 27000)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+11"/>
@@ -2825,8 +2795,8 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+61"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MotaCoin will not work properly.</source>
-        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, MotaCoin nebude fungovat správně.</translation>
-        </message>
+        <translation type="unfinished"/>
+    </message>
     <message>
         <location line="-31"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
@@ -2865,22 +2835,22 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="-90"/>
         <source>Find peers using DNS lookup (default: 1)</source>
-        <translation>Hledat uzly přes DNS (výchozí: 1, pokud není zadáno -connect)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+5"/>
         <source>Sync checkpoints policy (default: strict)</source>
-        <translation>Politika synchronizace kontrolních bloků (výchozí: přísný)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+83"/>
         <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation>Neplatná -tor adresa: &apos;%s&apos;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+4"/>
         <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
-        <translation>Neplatná částka pro -reservebalance=&lt;částka&gt;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-82"/>
@@ -2900,17 +2870,17 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+28"/>
         <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation>Tisknout speciální ladicí informace. Implikuje použití všech -debug* voleb</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Output extra network debugging information</source>
-        <translation>Tisknout speciální ladicí informace o síti</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Prepend debug output with timestamp</source>
-        <translation>Připojit před ladicí výstup časové razítko</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+35"/>
@@ -2920,7 +2890,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="-74"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation>Zvol verzi socks proxy (4-5, výchozí: 5)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+41"/>
@@ -2930,12 +2900,12 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+1"/>
         <source>Send trace/debug info to debugger</source>
-        <translation>Posílat stopovací/ladicí informace do debuggeru</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+28"/>
         <source>Set maximum block size in bytes (default: 250000)</source>
-         <translation>Nastavit maximální velikost bloku v bajtech (výchozí: 250000)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-1"/>
@@ -2955,8 +2925,8 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+109"/>
         <source>Unable to sign checkpoint, wrong checkpointkey?
-		</source>
-        <translation>Nelze synchronizovat kontrolní blok, špatně checkpointkey?</translation>
+</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-80"/>
@@ -2971,7 +2941,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="-25"/>
         <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation>Použít proxy k připojení ke skryté služby (výchozí: stejné jako -proxy)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+42"/>
@@ -2981,17 +2951,17 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
     <message>
         <location line="+47"/>
         <source>Verifying database integrity...</source>
-        <translation>Kontroluji integritu databáze</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+57"/>
         <source>WARNING: syncronized checkpoint violation detected, but skipped!</source>
-         <translation>UPOZORNĚNÍ: porušení synchronizačního bloku detekováno, ale přeskočeno!</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Warning: Disk space is low!</source>
-        <translation>Problém: Na disku je málo místa!</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-2"/>
@@ -3013,7 +2983,7 @@ To znamená, že minimálně %1 za kb jsou povinné</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=PayConrpc
+rpcuser=MotaCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3021,32 +2991,22 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s &quot;MotaCoin Alert&quot; admin@foo.com
 </source>
-        <translation>%s, musíš nastavit rpcpassword v konfiguračním souboru:
-%s
-Je vhodné použít následující náhodné heslo:
-rpcuser=PayConrpc
-rpcpassword=%s
-(není potřeba si ho pamatovat)
-rpcuser a rpcpassword NESMÍ být stejné.
-Pokud konfigurační soubor ještě neexistuje, vytvoř ho tak, aby ho mohl číst pouze vlastník.
-Je také doporučeno si nastavit alertnotify, abys byl upozorněn na případné problémy;
-například: alertnotify=echo %%s | mail -s &quot;MotaCoin Alert&quot; admin@foo.com
-</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+51"/>
         <source>Find peers using internet relay chat (default: 0)</source>
-        <translation>Najít peers pomocí Internet Relay Chat (výchozí: 0)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+5"/>
         <source>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</source>
-        <translation>Synchronizace času s ostatními uzly. Zakážte pokud čas na vašem systému je přesný, např. synchronizací s NTP (výchozí: 1)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+15"/>
         <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
-        <translation>Při vytváření transakcí, ignorovat vstupy s hodnotou nižší než tato (výchozí: 0.01)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+16"/>
@@ -3071,17 +3031,17 @@ například: alertnotify=echo %%s | mail -s &quot;MotaCoin Alert&quot; admin@foo
     <message>
         <location line="+3"/>
         <source>Require a confirmations for change (default: 0)</source>
-        <translation>Požadovat potvrzení pro změnu (default: 0)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Enforce transaction scripts to use canonical PUSH operators (default: 1)</source>
-        <translation>Prosazovat transakční skripty s použitím kanonické operátory push (výchozí: 1)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
         <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation>Spustit příkaz po přijetí relevantního hlášení (%s se v příkazu nahradí za zprávu)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
@@ -3101,17 +3061,17 @@ například: alertnotify=echo %%s | mail -s &quot;MotaCoin Alert&quot; admin@foo
     <message>
         <location line="+2"/>
         <source>How many blocks to check at startup (default: 2500, 0 = all)</source>
-        <translation>Kolik bloků při startu zkontrolovat (výchozí: 288, 0 = všechny)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>How thorough the block verification is (0-6, default: 1)</source>
-        <translation>Jak moc důkladná má být verifikace bloků (0-4, výchozí: 3)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Imports blocks from external blk000?.dat file</source>
-        <translation>Importovat bloky z externího souboru blk000??.dat</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+8"/>
@@ -3131,17 +3091,17 @@ například: alertnotify=echo %%s | mail -s &quot;MotaCoin Alert&quot; admin@foo
     <message>
         <location line="+1"/>
         <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation>Akceptovatelné šifry (výchozí: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+53"/>
         <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
-        <translation>Chyba: Peněženka odemčená pouze pro sázky, nelze vytvořit transakci.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+18"/>
         <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
-        <translation>VAROVÁNÍ: Neplatný kontrolní blok detekován! Uvedené transakce nemusí být správné! Možná budete muset upgradovat, nebo oznámit vývojářům.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-158"/>
@@ -3151,12 +3111,12 @@ například: alertnotify=echo %%s | mail -s &quot;MotaCoin Alert&quot; admin@foo
     <message>
         <location line="+95"/>
         <source>Wallet %s resides outside data directory %s.</source>
-        <translation>Peněženka %s je mimo datový adresář %s.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Cannot obtain a lock on data directory %s.  MotaCoin is probably already running.</source>
-        <translation>Nedaří se mi získat zámek na datový adresář %s. MotaCoin pravděpodobně už jednou běží.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-98"/>
@@ -3171,7 +3131,7 @@ například: alertnotify=echo %%s | mail -s &quot;MotaCoin Alert&quot; admin@foo
     <message>
         <location line="-130"/>
         <source>Connect through socks proxy</source>
-        <translation>&amp;Připojit přes SOCKS proxy:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
@@ -3186,7 +3146,7 @@ například: alertnotify=echo %%s | mail -s &quot;MotaCoin Alert&quot; admin@foo
     <message>
         <location line="-15"/>
         <source>Error loading blkindex.dat</source>
-          <translation>Chyba čtení souboru: blkindex.dat</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
@@ -3196,12 +3156,12 @@ například: alertnotify=echo %%s | mail -s &quot;MotaCoin Alert&quot; admin@foo
     <message>
         <location line="+4"/>
         <source>Error loading wallet.dat: Wallet requires newer version of MotaCoin</source>
-        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi MotaCoin</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Wallet needed to be rewritten: restart MotaCoin to complete</source>
-        <translation>Soubor s peněženkou potřeboval přepsat: restartuj MotaCoin, aby se operace dokončila</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
@@ -3241,12 +3201,12 @@ například: alertnotify=echo %%s | mail -s &quot;MotaCoin Alert&quot; admin@foo
     <message>
         <location line="+44"/>
         <source>Error: could not start node</source>
-        <translation>Chyba: nelze spustit uzel</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+11"/>
         <source>Sending...</source>
-         <translation>Odesílání...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+5"/>
@@ -3271,17 +3231,17 @@ například: alertnotify=echo %%s | mail -s &quot;MotaCoin Alert&quot; admin@foo
     <message>
         <location line="+122"/>
         <source>Unable to bind to %s on this computer. MotaCoin is probably already running.</source>
-        <translation>Nedaří se mi připojit na %s na tomhle počítači. MotaCoin už pravděpodobně jednou běží.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-97"/>
         <source>Fee per KB to add to transactions you send</source>
-        <translation>Poplatek za kB, který se přidá ke každé odeslané transakci</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+55"/>
         <source>Invalid amount for -mininput=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Neplatná částka pro -mininput=&lt;částka&gt;: &apos;%s&apos;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
@@ -3296,7 +3256,7 @@ například: alertnotify=echo %%s | mail -s &quot;MotaCoin Alert&quot; admin@foo
     <message>
         <location line="+1"/>
         <source>Cannot initialize keypool</source>
-        <translation>Nelze inicializovat keypool</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>

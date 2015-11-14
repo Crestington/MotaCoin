@@ -27,33 +27,29 @@ class CInv;
 class CRequestTracker;
 class CNode;
 
-static const int LAST_POW_BLOCK = 60480;
-static const int DIFF_SWITCH_BLOCK = 50000;
+static const int LAST_POW_BLOCK = 5000; //about 3 years of PoW blocks
 
 static const unsigned int MAX_BLOCK_SIZE = 1000000;
 static const unsigned int MAX_BLOCK_SIZE_GEN = MAX_BLOCK_SIZE/2;
 static const unsigned int MAX_BLOCK_SIGOPS = MAX_BLOCK_SIZE/50;
 static const unsigned int MAX_ORPHAN_TRANSACTIONS = MAX_BLOCK_SIZE/100;
 static const unsigned int MAX_INV_SZ = 50000;
-static const int64_t MIN_TX_FEE = 10000;
-static const int64_t SOFT_MIN_TX_FEE = 5 * CENT;
+static const int64_t MIN_TX_FEE = 0.2 * COIN;
 static const int64_t MIN_RELAY_TX_FEE = MIN_TX_FEE;
-static const int64_t MAX_MONEY = 20000000 * COIN;
-static const int64_t MAX_MINT_PROOF_OF_STAKE = 12 * CENT; // 50% per year
-static const int64_t MAX_MINT_PROOF_OF_STAKE2 = 100 * CENT; // 100% per year
+static const int64_t MAX_MONEY = 25000000 * COIN;
+static const int64_t MAX_MINT_PROOF_OF_STAKE = 12 * CENT; // 20% per year
 static const int MAX_TIME_SINCE_BEST_BLOCK = 10; // how many seconds to wait before sending next PushGetBlocks()
+static const int MODIFIER_INTERVAL_SWITCH = 100;
 
-static const unsigned int REWARD_SWITCH_TIME = 1422918000; // 02/02/2015 @ 11:00pm (UTC)
-static const unsigned int BLOCK_SWITCH_TIME = 1442188800; // 05/01/2015 @ 12:00am (UTC)
-static const int MODIFIER_INTERVAL_SWITCH = 7200; // start POS 500 blocks before end of PoW to ensure smooth transition
+static const unsigned int BLOCK_SWITCH_TIME = 1449976180; // 07/01/2015 @ 12:00am (UTC)
 
 inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 // Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp.
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
 /** Combine Threshold Default */   
-static const int64_t DEF_COMBINE_AMOUNT = 100 * COIN;
+static const int64_t DEF_COMBINE_AMOUNT = 250 * COIN; 
 /** Combine Threshold Max */  
-static const int64_t MAX_COMBINE_AMOUNT = 1000 * COIN;
+static const int64_t MAX_COMBINE_AMOUNT = 2500 * COIN;
 
 #ifdef USE_UPNP
 static const int fHaveUPnP = true;
@@ -61,14 +57,13 @@ static const int fHaveUPnP = true;
 static const int fHaveUPnP = false;
 #endif
 
-static const uint256 hashGenesisBlock("");
-static const uint256 hashGenesisBlockTestNet("");
+static const uint256 hashGenesisBlock("00000ff1e699aa185b6ac987c0c07555c9abba9b232a93455d2179f61f5cafce");
+static const uint256 hashGenesisBlockTestNet("00000ff1e699aa185b6ac987c0c07555c9abba9b232a93455d2179f61f5cafce");
 
-//static const uint256 CheckBlock1 ("0"); // Checkpoint at block 0
 inline int64_t GetClockDrift(int64_t nTime)
 {
 	if(nTime < BLOCK_SWITCH_TIME)
-		return 15 * 60;
+		return 30 * 60;
 	else
 		return 60;
 }
@@ -133,10 +128,8 @@ bool LoadExternalBlockFile(FILE* fileIn);
 
 bool CheckProofOfWork(uint256 hash, unsigned int nBits);
 unsigned int GetNextTargetRequired(const CBlockIndex* pindexLast, bool fProofOfStake);
-unsigned int GetNextTargetRequiredV1(const CBlockIndex* pindexLast, bool fProofOfStake);
-unsigned int GetNextTargetRequiredV2(const CBlockIndex* pindexLast, bool fProofOfStake);
 int64_t GetProofOfWorkReward(int64_t nFees);
-int64_t GetProofOfStakeReward(int64_t nCoinAge, unsigned int nBits, unsigned int nTime, int64_t nFees, bool bCoinYearOnly=false);
+int64_t GetProofOfStakeReward(int64_t nCoinAge, unsigned int nBits, unsigned int nTime, int64_t nFees, int64_t nValueIn, uint256 prevHash);
 unsigned int ComputeMinWork(unsigned int nBase, int64_t nTime);
 unsigned int ComputeMinStake(unsigned int nBase, int64_t nTime, unsigned int nBlockTime);
 int GetNumBlocksOfPeers();
@@ -607,7 +600,7 @@ public:
      */
     int64_t GetValueIn(const MapPrevTx& mapInputs) const;
 
-    int64_t GetMinFee(unsigned int nBlockSize=1, enum GetMinFee_mode mode=GMF_BLOCK, unsigned int nBytes = 0, bool fSoftFeeIncrease = false) const;
+    int64_t GetMinFee(unsigned int nBlockSize=1, enum GetMinFee_mode mode=GMF_BLOCK, unsigned int nBytes = 0) const;
 
     bool ReadFromDisk(CDiskTxPos pos, FILE** pfileRet=NULL)
     {
@@ -1340,11 +1333,11 @@ public:
 
     std::string ToString() const
     {
-        return strprintf("CBlockIndex(nprev=%p, pnext=%p, nFile=%u, nBlockPos=%-6d nHeight=%d, nMint=%s, nMoneySupply=%s, nFlags=(%s)(%d)(%s), nStakeModifier=%016"PRIx64", nStakeModifierChecksum=%08x, hashProofOfStake=%s, prevoutStake=(%s), nStakeTime=%d merkle=%s, hashBlock=%s)",
+        return strprintf("CBlockIndex(nprev=%p, pnext=%p, nFile=%u, nBlockPos=%-6d nHeight=%d, nMint=%s, nMoneySupply=%s, nFlags=(%s)(%d)(%s), nStakeModifierChecksum=%08x, hashProofOfStake=%s, prevoutStake=(%s), nStakeTime=%d merkle=%s, hashBlock=%s)",
             pprev, pnext, nFile, nBlockPos, nHeight,
             FormatMoney(nMint).c_str(), FormatMoney(nMoneySupply).c_str(),
             GeneratedStakeModifier() ? "MOD" : "-", GetStakeEntropyBit(), IsProofOfStake()? "PoS" : "PoW",
-            nStakeModifier, nStakeModifierChecksum, 
+            nStakeModifierChecksum, 
             hashProofOfStake.ToString().c_str(),
             prevoutStake.ToString().c_str(), nStakeTime,
             hashMerkleRoot.ToString().c_str(),

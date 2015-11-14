@@ -10,7 +10,6 @@
 #include "init.h"
 #include "util.h"
 #include "ui_interface.h"
-#include "tor/anonymize.h"
 #include "checkpoints.h"
 #include <boost/filesystem.hpp>
 #include <boost/filesystem/fstream.hpp>
@@ -243,7 +242,7 @@ std::string HelpMessage()
         "  -socks=<n>             " + _("Select the version of socks proxy to use (4-5, default: 5)") + "\n" +
         "  -tor=<ip:port>         " + _("Use proxy to reach tor hidden services (default: same as -proxy)") + "\n"
         "  -dns                   " + _("Allow DNS lookups for -addnode, -seednode and -connect") + "\n" +
-        "  -port=<port>           " + _("Listen for connections on <port> (default: 58823 or testnet: 25072)") + "\n" +
+        "  -port=<port>           " + _("Listen for connections on <port> (default: 14200 or testnet: 22568)") + "\n" +
         "  -maxconnections=<n>    " + _("Maintain at most <n> connections to peers (default: 125)") + "\n" +
         "  -addnode=<ip>          " + _("Add a node to connect to and attempt to keep the connection open") + "\n" +
         "  -connect=<ip>          " + _("Connect only to the specified node(s)") + "\n" +
@@ -251,7 +250,7 @@ std::string HelpMessage()
         "  -externalip=<ip>       " + _("Specify your own public address") + "\n" +
         "  -onlynet=<net>         " + _("Only connect to nodes in network <net> (IPv4, IPv6 or Tor)") + "\n" +
         "  -discover              " + _("Discover own IP address (default: 1 when listening and no -externalip)") + "\n" +
-        "  -irc                   " + _("Find peers using internet relay chat (default: 0 off)") + "\n" +
+        "  -irc                   " + _("Find peers using internet relay chat (default: 0)") + "\n" +
         "  -listen                " + _("Accept connections from outside (default: 1 if no -proxy or -connect)") + "\n" +
         "  -bind=<addr>           " + _("Bind to given address. Use [host]:port notation for IPv6") + "\n" +
         "  -dnsseed               " + _("Find peers using DNS lookup (default: 1)") + "\n" +
@@ -262,7 +261,6 @@ std::string HelpMessage()
         "  -bantime=<n>           " + _("Number of seconds to keep misbehaving peers from reconnecting (default: 86400)") + "\n" +
         "  -maxreceivebuffer=<n>  " + _("Maximum per-connection receive buffer, <n>*1000 bytes (default: 5000)") + "\n" +
         "  -maxsendbuffer=<n>     " + _("Maximum per-connection send buffer, <n>*1000 bytes (default: 1000)") + "\n" +
-		"  -onionseed             " + _("Find peers using .onion seeds (default: 1 unless -connect)") + "\n" +
 #ifdef USE_UPNP
 #if USE_UPNP
         "  -upnp                  " + _("Use UPnP to map the listening port (default: 1 when listening)") + "\n" +
@@ -290,7 +288,7 @@ std::string HelpMessage()
 #endif
         "  -rpcuser=<user>        " + _("Username for JSON-RPC connections") + "\n" +
         "  -rpcpassword=<pw>      " + _("Password for JSON-RPC connections") + "\n" +
-        "  -rpcport=<port>        " + _("Listen for JSON-RPC connections on <port> (default: 58824 or testnet: 25073)") + "\n" +
+        "  -rpcport=<port>        " + _("Listen for JSON-RPC connections on <port> (default: 14201 or testnet: 22569)") + "\n" +
         "  -rpcallowip=<ip>       " + _("Allow JSON-RPC connections from specified IP address") + "\n" +
         "  -rpcconnect=<ip>       " + _("Send commands to node running on <ip> (default: 127.0.0.1)") + "\n" +
         "  -blocknotify=<cmd>     " + _("Execute command when the best block changes (%s in cmd is replaced by block hash)") + "\n" +
@@ -302,7 +300,7 @@ std::string HelpMessage()
         "  -upgradewallet         " + _("Upgrade wallet to latest format") + "\n" +
         "  -keypool=<n>           " + _("Set key pool size to <n> (default: 100)") + "\n" +
         "  -rescan                " + _("Rescan the block chain for missing wallet transactions") + "\n" +
-    	"  -combinethreshold=<n>  " + _("Set stake combine threshold after 14 days within range (default: 30, max: 1000)") + "\n" + 
+    	"  -combinethreshold=<n>  " + _("Set stake combine threshold after 14 days within range (default: 250, max: 2500)") + "\n" + 
         "  -salvagewallet         " + _("Attempt to recover private keys from a corrupt wallet.dat") + "\n" +
         "  -checkblocks=<n>       " + _("How many blocks to check at startup (default: 2500, 0 = all)") + "\n" +
         "  -checklevel=<n>        " + _("How thorough the block verification is (0-6, default: 1)") + "\n" +
@@ -390,7 +388,6 @@ bool AppInit2()
     nDerivationMethodIndex = 0;
 
     fTestNet = GetBoolArg("-testnet");
-/*
     //fTestNet = true;
     if (fTestNet) {
         SoftSetBoolArg("-irc", true);
@@ -401,10 +398,8 @@ bool AppInit2()
         // even when -connect or -proxy is specified
         SoftSetBoolArg("-listen", true);
     }
-*/
-    if (mapArgs.count("-connect") && mapMultiArgs["-connect"].size() > 0) 
-/*
-	{
+
+    if (mapArgs.count("-connect") && mapMultiArgs["-connect"].size() > 0) {
         // when only connecting to trusted nodes, do not seed via DNS, or listen by default
         SoftSetBoolArg("-dnsseed", false);
         SoftSetBoolArg("-listen", false);
@@ -425,12 +420,7 @@ bool AppInit2()
         // if an explicit public IP is specified, do not try to find others
         SoftSetBoolArg("-discover", false);
     }
-*/
-	{
-			// when only connecting to trusted nodes, do not seed via .onion, or listen by default
-			SoftSetBoolArg("-onionseed", false);
-	
-	}
+
     if (GetBoolArg("-salvagewallet")) {
         // Rewrite just private keys: rescan to find transactions
         SoftSetBoolArg("-rescan", true);
@@ -478,7 +468,7 @@ bool AppInit2()
     {
         if (!ParseMoney(mapArgs["-paytxfee"], nTransactionFee))
             return InitError(strprintf(_("Invalid amount for -paytxfee=<amount>: '%s'"), mapArgs["-paytxfee"].c_str()));
-        if (nTransactionFee > 0.25 * COIN)
+        if (nTransactionFee > 1 * COIN)
             InitWarning(_("Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction."));
     }
 
@@ -582,10 +572,7 @@ bool AppInit2()
     }
 
     // ********************************************************* Step 6: network initialization
-
-    uiInterface.InitMessage(_("Initialising Tor Network..."));
-    printf("Initialising Tor Network...\n");
-	
+	  
         // Combine threshold  
 	    if (mapArgs.count("-combinethreshold"))   
     {   
@@ -603,26 +590,19 @@ bool AppInit2()
     if (nSocksVersion != 4 && nSocksVersion != 5)
         return InitError(strprintf(_("Unknown -socks proxy version requested: %i"), nSocksVersion));
 
- //   if (mapArgs.count("-onlynet")) {
-	 do {
+    if (mapArgs.count("-onlynet")) {
         std::set<enum Network> nets;
-/*
         BOOST_FOREACH(std::string snet, mapMultiArgs["-onlynet"]) {
             enum Network net = ParseNetwork(snet);
             if (net == NET_UNROUTABLE)
                 return InitError(strprintf(_("Unknown network specified in -onlynet: '%s'"), snet.c_str()));
             nets.insert(net);
         }
-*/
-		
-		nets.insert(NET_TOR);
-		
         for (int n = 0; n < NET_MAX; n++) {
             enum Network net = (enum Network)n;
             if (!nets.count(net))
                 SetLimited(net);
         }
-/*
     }
 #if defined(USE_IPV6)
 #if ! USE_IPV6
@@ -630,12 +610,7 @@ bool AppInit2()
         SetLimited(NET_IPV6);
 #endif
 #endif
-*/
-    } while (false);
-	
-    CService addrOnion;
-    unsigned short const onion_port = 9092;
-/*
+
     CService addrProxy;
     bool fProxy = false;
     if (mapArgs.count("-proxy")) {
@@ -654,10 +629,7 @@ bool AppInit2()
         }
         fProxy = true;
     }
-*/
-    if (mapArgs.count("-tor") && mapArgs["-tor"] != "0") {
-        addrOnion = CService(mapArgs["-tor"], onion_port);
-/*		
+
     // -tor can override normal proxy, -notor disables tor entirely
     if (!(mapArgs.count("-tor") && mapArgs["-tor"] == "0") && (fProxy || mapArgs.count("-tor"))) {
         CService addrOnion;
@@ -665,50 +637,30 @@ bool AppInit2()
             addrOnion = addrProxy;
         else
             addrOnion = CService(mapArgs["-tor"], 9050);
-*/
         if (!addrOnion.IsValid())
             return InitError(strprintf(_("Invalid -tor address: '%s'"), mapArgs["-tor"].c_str()));
-	} else {
-	    addrOnion = CService("127.0.0.1", onion_port);
-    }
-
-    if (true) {
         SetProxy(NET_TOR, addrOnion, 5);
         SetReachable(NET_TOR);
     }
 
     // see Step 2: parameter interactions for more information about these
-/*
     fNoListen = !GetBoolArg("-listen", true);
     fDiscover = GetBoolArg("-discover", true);
-*/
     fNameLookup = GetBoolArg("-dns", true);
 #ifdef USE_UPNP
     fUseUPnP = GetBoolArg("-upnp", USE_UPNP);
 #endif
 
     bool fBound = false;
-/*
     if (!fNoListen)
     {
         std::string strError;
         if (mapArgs.count("-bind")) {
             BOOST_FOREACH(std::string strBind, mapMultiArgs["-bind"]) {
-*/
-    if (true) {
-	std::string strError;
-
-        if (true) {
-            do {
                 CService addrBind;
-/*
                 if (!Lookup(strBind.c_str(), addrBind, GetListenPort(), false))
                     return InitError(strprintf(_("Cannot resolve -bind address: '%s'"), strBind.c_str()));
-*/
-                if (!Lookup("127.0.0.1", addrBind, GetListenPort(), false))
-                    return InitError(strprintf(_("Cannot resolve binding address: '%s'"), "127.0.0.1"));
-					fBound |= Bind(addrBind);
-/*
+                fBound |= Bind(addrBind);
             }
         } else {
             struct in_addr inaddr_any;
@@ -719,21 +671,11 @@ bool AppInit2()
 #endif
             if (!IsLimited(NET_IPV4))
                 fBound |= Bind(CService(inaddr_any, GetListenPort()), !fBound);
-*/
-            } while (false);
         }
         if (!fBound)
-//            return InitError(_("Failed to listen on any port. Use -listen=0 if you want this."));
-	    return InitError(_("Failed to listen on any port."));
+            return InitError(_("Failed to listen on any port. Use -listen=0 if you want this."));
     }
 
-    if (!(mapArgs.count("-tor") && mapArgs["-tor"] != "0")) {
-        if (!NewThread(StartTor, NULL))
-                InitError(_("Error: could not start tor node"));
-    }
-
-	wait_initialized();
-	
     if (mapArgs.count("-externalip"))
     {
         BOOST_FOREACH(string strAddr, mapMultiArgs["-externalip"]) {
@@ -742,17 +684,6 @@ bool AppInit2()
                 return InitError(strprintf(_("Cannot resolve -externalip address: '%s'"), strAddr.c_str()));
             AddLocal(CService(strAddr, GetListenPort(), fNameLookup), LOCAL_MANUAL);
         }
-    } else {
-        string automatic_onion;
-        filesystem::path const hostname_path = GetDefaultDataDir() / "onion" / "hostname";
-
-        if (!filesystem::exists(hostname_path)) {
-            return InitError(_("No external address found."));
-        }
-
-        ifstream file(hostname_path.string().c_str());
-        file >> automatic_onion;
-        AddLocal(CService(automatic_onion, GetListenPort(), fNameLookup), LOCAL_MANUAL);
     }
 
     if (mapArgs.count("-reservebalance")) // MotaCoin: reserve balance amount
@@ -962,11 +893,6 @@ bool AppInit2()
     printf("Loaded %i addresses from peers.dat  %"PRId64"ms\n",
            addrman.size(), GetTimeMillis() - nStart);
 
-    // ********************************************************* Step 10.1: startup MotaCoin Connect©
-    
-    uiInterface.InitMessage(_("Loading MotaCoin..."));
-    printf("Loading MotaCoin Connect©...\n");
-	
     // ********************************************************* Step 11: start node
 
     if (!CheckDiskSpace())

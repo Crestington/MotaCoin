@@ -53,50 +53,19 @@ void StatisticsPage::updateStatistics()
     QString stakemin = QString::number(nMinWeight);
     QString stakemax = QString::number(nNetworkWeight);
     QString phase = "";
-    if (pindexBest->nHeight < 7200)
-    {
-        phase = "X13 POW";
-    }
-    else if (pindexBest->nHeight < 60480)
-    {
+	if (pindexBest->nHeight < LAST_POW_BLOCK)
         phase = "POS + POW";
-    }
-    else if (pindexBest->nHeight < 1000000000)
-    {
+    else
         phase = "POS";
-    }
+
 
     QString subsidy = "";
-    if(pindexBest->nHeight < 5000)
-    {
-        subsidy = "250 CON";
-    }
-		else if(pindexBest->nHeight < 15000)
-    {
-        subsidy = "150 CON";
-    }
-        else if(pindexBest->nHeight < 30000)
-    {
-        subsidy = "75 CON";
-    }
-        else if(pindexBest->nHeight < 60480)
-    {
-        subsidy = "50 CON";
-    }
-        else if(pindexBest->nHeight < 100000000)
-    {
-        subsidy = "0 CON";
-    }
+	if(pindexBest->nHeight < LAST_POW_BLOCK)
+        subsidy = "1 MOTA";
+	else
+        subsidy = "0 MOTA";
 
-    QString subsidy2 = "";
-    if(pindexBest->nHeight < 50000)
-    {
-        subsidy2 = "50% per year";
-    }
-        else if(pindexBest->nHeight < 10000000)
-    {
-        subsidy2 = "30 CON";
-    }
+    QString subsidy2 = "0.5";
 
     QString hardness = QString::number(pHardness, 'f', 6);
     QString hardness2 = QString::number(pHardness2, 'f', 6);
@@ -191,11 +160,11 @@ void StatisticsPage::updateStatistics()
 
     if(volume > volumePrevious)
     {
-        ui->volumeBox->setText("<b><font color=\"green\">" + qVolume + " CON" + "</font></b>");
+        ui->volumeBox->setText("<b><font color=\"green\">" + qVolume + " MOTA" + "</font></b>");
     } else if(volume < volumePrevious) {
-        ui->volumeBox->setText("<b><font color=\"red\">" + qVolume + " CON" + "</font></b>");
+        ui->volumeBox->setText("<b><font color=\"red\">" + qVolume + " MOTA" + "</font></b>");
     } else {
-        ui->volumeBox->setText(qVolume + " CON");
+        ui->volumeBox->setText(qVolume + " MOTA");
     }
     updatePrevious(nHeight, nMinWeight, nNetworkWeight, phase, subsidy, subsidy2, pHardness, pHardness2, pPawrate2, Qlpawrate, peers, volume);
 }

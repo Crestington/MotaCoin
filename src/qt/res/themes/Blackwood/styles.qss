@@ -61,7 +61,7 @@ QFrame {
 }
 /* Coin Image */
 #label_2 {
-	qproperty-pixmap: url($themes-dir/Blackwood/PayCon256.png);
+	qproperty-pixmap: url($themes-dir/Blackwood/MotaCoin256.png);
 }
 
 

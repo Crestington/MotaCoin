@@ -90,7 +90,7 @@
      <item>
       <widget class="QValidatedLineEdit" name="payTo">
        <property name="toolTip">
-        <string>The MOTA address to send the payment to  (e.g. PhuKm3NfwYhBmGXcFP2Po1NpRUEiK8km2)</string>
+        <string>The MOTA address to send the payment to  (e.g. MhuCKm3NfwYhBF0rmGXcFP2Po1NSexpRUEiK8km2)</string>
        </property>
        <property name="maxLength">
         <number>34</number>

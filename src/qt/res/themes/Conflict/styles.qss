@@ -50,7 +50,7 @@ QDialog, QTableView{
 }
 /* Coin Image */
 #label_2 {
-	qproperty-pixmap: url($themes-dir/Conflict/PayCon128.png);
+	qproperty-pixmap: url($themes-dir/Conflict/MotaCoin128.png);
 }
 /* Group Box */
 QGroupBox {

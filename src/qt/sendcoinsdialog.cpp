@@ -38,7 +38,7 @@ SendCoinsDialog::SendCoinsDialog(QWidget *parent) :
 #if QT_VERSION >= 0x040700
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
 	ui->splitBlockLineEdit->setPlaceholderText(tr("# of Blocks"));
-	ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a MotaCoin address (e.g. PfwYhBmGXcFP2Po1NpRUEiK8km2)"));
+	ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a MotaCoin address (e.g. CfwYhBmGXcFP2Po1NpRUEiK8km2)"));
 	ui->splitBlockCheckBox->setToolTip(tr("Enable/Disable Block Splitting"));
 	ui->returnChangeCheckBox->setToolTip(tr("Use your sending address as the change address"));
 	ui->checkBoxCoinControlChange->setToolTip(tr("Send change to a custom address"));

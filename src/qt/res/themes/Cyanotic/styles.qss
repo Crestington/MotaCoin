@@ -45,7 +45,7 @@ QDialog, QTableView{
 }
 /* Coin Image */
 #label_2 {
-	qproperty-pixmap: url($themes-dir/Cyanotic/PayCon196.png);
+	qproperty-pixmap: url($themes-dir/Cyanotic/MotaCoin196.png);
 }
 
 /* Group Box */

@@ -3,6 +3,7 @@
 #include "optionsmodel.h"
 #include "addresstablemodel.h"
 #include "transactiontablemodel.h"
+#include "uint256_t.h"
 
 #include "ui_interface.h"
 #include "wallet.h"

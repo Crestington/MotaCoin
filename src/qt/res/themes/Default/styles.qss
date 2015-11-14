@@ -10,10 +10,6 @@ QMainWindow, QDialog, QFrame {
 	background:#222;
 	border:none;
 }
-/* Coin Image */
-#label_2 {
-	qproperty-pixmap: url($themes-dir/Default/PayCon256.png);
-}
 
 /* QWidget */
 QWidget {

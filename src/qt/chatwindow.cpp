@@ -24,18 +24,18 @@ ChatWindow::ChatWindow(QWidget *parent)
     setFixedSize(760,600);
     ui->splitter->hide();
 
-	connect(ui->buttonConnect, SIGNAL(clicked()), this, SLOT(connecte()));
+	//connect(ui->buttonConnect, SIGNAL(clicked()), this, SLOT(connecte()));
 
 	connect(ui->actionQuit, SIGNAL(triggered()), this, SLOT(close()));
 	connect(ui->actionCloseTab, SIGNAL(triggered()), this, SLOT(closeTab()));
 
-	connect(ui->lineEdit, SIGNAL(returnPressed()), this, SLOT(sendCommande()));
+	//connect(ui->lineEdit, SIGNAL(returnPressed()), this, SLOT(sendCommande()));
 
 
 
 
 
-    connect(ui->disconnect, SIGNAL(clicked()), this, SLOT(disconnectFromServer()));
+    //connect(ui->disconnect, SIGNAL(clicked()), this, SLOT(disconnectFromServer()));
 	connect(ui->tab, SIGNAL(currentChanged(int)), this, SLOT(tabChanged(int)) );
 	connect(ui->tab, SIGNAL(tabCloseRequested(int)), this, SLOT(tabClosing(int)) );
 
@@ -118,7 +118,7 @@ void ChatWindow::sendCommande()
 {
 	QString tooltip=ui->tab->tabToolTip(ui->tab->currentIndex());
 	QString txt=ui->tab->tabText(ui->tab->currentIndex());
-	if(txt==tooltip)
+	/*if(txt==tooltip)
 	{
 		currentTab()->sendData(currentTab()->parseCommande(ui->lineEdit->text(),true) );
 	}
@@ -127,7 +127,7 @@ void ChatWindow::sendCommande()
 		currentTab()->sendData(currentTab()->parseCommande(ui->lineEdit->text()) );
 	}
 	ui->lineEdit->clear();
-	ui->lineEdit->setFocus();
+	ui->lineEdit->setFocus();*/
 }
 
 void ChatWindow::tabJoined()
@@ -142,7 +142,7 @@ void ChatWindow::tabJoining()
 void ChatWindow::connecte()
 {
 
-    ui->splitter->show();
+    /*ui->splitter->show();
 	Serveur *serveur=new Serveur;
     QTextEdit *textEdit=new QTextEdit;
     ui->hide3->hide();
@@ -171,7 +171,7 @@ void ChatWindow::connecte()
 
     serveur->connectToHost("chat.freenode.net",6667);
 
-	ui->tab->setCurrentIndex(ui->tab->count()-1);
+	ui->tab->setCurrentIndex(ui->tab->count()-1);*/
 }
 
 void ChatWindow::closeEvent(QCloseEvent *event)

@@ -71,7 +71,7 @@ QFrame {
 
 /* Coin Image */
 #label_2 {
-	qproperty-pixmap: url($themes-dir/Luminous/PayCon128.png);
+	qproperty-pixmap: url($themes-dir/Luminous/MotaCoin128.png);
 }
 
 /* Bottom status bar */

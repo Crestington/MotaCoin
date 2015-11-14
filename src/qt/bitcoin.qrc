@@ -1,7 +1,7 @@
 <RCC>
     <qresource prefix="/icons">
         <file alias="bitcoin">res/icons/MotaCoin.png</file>
-        <file alias="coinbg">res/icons/MotaCoin256.png</file>
+        <file alias="coinbg">res/icons/MotaCoin-256.png</file>
         <file alias="yuno">res/icons/MotaCoin-Yuno.png</file>
         <file alias="address-book">res/icons/address-book.png</file>
         <file alias="quit">res/icons/quit.png</file>

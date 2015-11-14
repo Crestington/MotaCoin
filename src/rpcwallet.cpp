@@ -197,26 +197,26 @@ Value moneysupply(const Array& params, bool fHelp)
 	
 	//height of blocks
 	int64_t nHeight = pindexBest->nHeight; //present
-	int64_t n1Height = nHeight - 1440; // day -- 960 blocks should be about 1 day if blocks have 90 sec spacing
+	int64_t n1Height = nHeight - 1440; // day -- 1440 blocks should be about 1 day if blocks have 120 sec spacing
 	int64_t n7Height = nHeight - 1440 * 7; // week
 	int64_t n30Height = nHeight - 1440 * 30; // month
 	
 	//print to console
 	Object obj;
 	obj.push_back(Pair("moneysupply - present", GetMoneySupply(nHeight)));
-	obj.push_back(Pair("moneysupply - 1,440 blocks ago", GetMoneySupply(n1Height)));
+	obj.push_back(Pair("moneysupply - 1440 blocks ago", GetMoneySupply(n1Height)));
 	obj.push_back(Pair("moneysupply - 10,080 blocks ago", GetMoneySupply(n7Height)));
 	obj.push_back(Pair("moneysupply - 43,200 blocks ago", GetMoneySupply(n30Height)));
 	
-	obj.push_back(Pair("supply change(last 1,440 blocks)", GetSupplyChange(nHeight, n1Height)));
+	obj.push_back(Pair("supply change(last 1440 blocks)", GetSupplyChange(nHeight, n1Height)));
 	obj.push_back(Pair("supply change(last 10,080 blocks)", GetSupplyChange(nHeight, n7Height)));
 	obj.push_back(Pair("supply change(last 43,200 blocks)", GetSupplyChange(nHeight, n30Height)));
 	
-	obj.push_back(Pair("time change over 1,440 blocks", GetBlockSpeed(nHeight, n1Height)));
+	obj.push_back(Pair("time change over 1440 blocks", GetBlockSpeed(nHeight, n1Height)));
 	obj.push_back(Pair("time change over 10,080 blocks", GetBlockSpeed(nHeight, n7Height)));
 	obj.push_back(Pair("time change over 43,200 blocks", GetBlockSpeed(nHeight, n30Height)));
 	
-	obj.push_back(Pair("avg daily rate of change (last 1,440 blocks)", GetRate(nHeight, n1Height)));
+	obj.push_back(Pair("avg daily rate of change (last 1440 blocks)", GetRate(nHeight, n1Height)));
 	obj.push_back(Pair("avg daily rate of change (last 10,080 blocks)", GetRate(nHeight, n7Height)));
 	obj.push_back(Pair("avg daily rate of change (last 43,200 blocks)", GetRate(nHeight, n30Height)));
 	return obj;
@@ -1982,7 +1982,7 @@ Value repairwallet(const Array& params, bool fHelp)
     return result;
 }
 
-// MotaCoin: resend unconfirmed wallet transactions
+// NovaCoin: resend unconfirmed wallet transactions
 Value resendtx(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() > 1)
@@ -2208,7 +2208,7 @@ Value cclistcoins(const Array& params, bool fHelp)
 		if(dAge < nStakeMinAge)
 			nWeight = 0;
 		coutput.push_back(Pair("Weight", int(nWeight)));
-		double nReward = (MAX_MINT_PROOF_OF_STAKE2/COIN) / 365 * dAge * dAmount;
+		double nReward = (MAX_MINT_PROOF_OF_STAKE/COIN) / 365 * dAge * dAmount;
 		nReward = min(nReward, double(30));
 		coutput.push_back(Pair("Potential Stake", nReward));
 		result.push_back(coutput);
@@ -2317,7 +2317,7 @@ Value ccsend(const Array& params, bool fHelp)
     // Amount
     int64_t nAmount = AmountFromValue(params[1]);
 
-    if (nAmount < SOFT_MIN_TX_FEE + 1)
+    if (nAmount < MIN_TX_FEE + 1)
         throw JSONRPCError(-101, "Send amount too small");
 
     if (pwalletMain->IsLocked())
@@ -2658,5 +2658,6 @@ Value hashsettings(const Array& params, bool fHelp)
 		else  
 			return "HashInterval set but failed to write to DB";  
 	}
+	return false;
 } 
 

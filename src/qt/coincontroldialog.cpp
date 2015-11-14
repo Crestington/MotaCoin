@@ -609,14 +609,14 @@ void CoinControlDialog::updateLabels(WalletModel *model, QDialog* dialog)
         int64_t nFee = nTransactionFee * (1 + (int64_t)nBytes / 1000);
         
         // Min Fee
-        int64_t nMinFee = txDummy.GetMinFee(1, GMF_SEND, nBytes, true);
+        int64_t nMinFee = txDummy.GetMinFee(1, GMF_SEND, nBytes);
         
         nPayFee = max(nFee, nMinFee);
 
         //nPayFee = nFee;
 		if(pwalletMain->fSplitBlock)
 		{
-			nPayFee = COIN; // make the fee more expensive if using splitblock, this avoids having to calc fee based on multiple vouts
+			nPayFee = COIN * 1; // make the fee more expensive if using splitblock, this avoids having to calc fee based on multiple vouts
 		}
 	        
         if (nPayAmount > 0)
@@ -775,7 +775,7 @@ void CoinControlDialog::updateView()
             nChildren++;
 			
 			model->getStakeWeightFromValue(out.tx->GetTxTime(), out.tx->vout[out.i].nValue, nTxWeight);
-			if ((GetTime() - pindex->nTime) < (60*60*24*2))
+			if ((GetTime() - pindex->nTime) < (60*60*24*7))
 				nDisplayWeight = 0;
 			else
 				nDisplayWeight = nTxWeight;
@@ -852,7 +852,7 @@ void CoinControlDialog::updateView()
 
 			// Age
 			uint64_t nAge = (GetTime() - nTime);
-			int64_t age = COIN * nAge / (1440 * 60);
+			int64_t age = COIN * nAge / (720 * 60);
 			itemOutput->setText(COLUMN_AGE, strPad(BitcoinUnits::formatAge(nDisplayUnit, age), 2, " "));
 			itemOutput->setText(COLUMN_AGE_INT64, strPad(QString::number(age), 15, " "));
 

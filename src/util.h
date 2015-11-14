@@ -229,6 +229,7 @@ std::string FormatFullVersion();
 std::string FormatSubVersion(const std::string& name, int nClientVersion, const std::vector<std::string>& comments);
 void AddTimeData(const CNetAddr& ip, int64_t nTime);
 void runCommand(std::string strCommand);
+long hex2long(const char* hexString);
 
 
 
@@ -240,7 +241,10 @@ void runCommand(std::string strCommand);
 
 inline std::string i64tostr(int64_t n)
 {
-    return strprintf("%"PRId64, n);
+    //return strprintf("%"PRId64, n);
+	std::ostringstream o;
+	o << n;
+	return o.str();
 }
 
 inline std::string itostr(int n)
