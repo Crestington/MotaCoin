@@ -27,21 +27,21 @@ class CInv;
 class CRequestTracker;
 class CNode;
 
-static const int LAST_POW_BLOCK = 5000; //about 3 years of PoW blocks
+static const int LAST_POW_BLOCK = 5000; //about 1 day of PoW blocks
 
 static const unsigned int MAX_BLOCK_SIZE = 1000000;
 static const unsigned int MAX_BLOCK_SIZE_GEN = MAX_BLOCK_SIZE/2;
 static const unsigned int MAX_BLOCK_SIGOPS = MAX_BLOCK_SIZE/50;
 static const unsigned int MAX_ORPHAN_TRANSACTIONS = MAX_BLOCK_SIZE/100;
 static const unsigned int MAX_INV_SZ = 50000;
-static const int64_t MIN_TX_FEE = 0.2 * COIN;
+static const int64_t MIN_TX_FEE = 0.02 * COIN;
 static const int64_t MIN_RELAY_TX_FEE = MIN_TX_FEE;
-static const int64_t MAX_MONEY = 25000000 * COIN;
-static const int64_t MAX_MINT_PROOF_OF_STAKE = 12 * CENT; // 20% per year
+static const int64_t MAX_MONEY = 50000000 * COIN;
+static const int64_t MAX_MINT_PROOF_OF_STAKE = 12 * CENT; // 12% per year
 static const int MAX_TIME_SINCE_BEST_BLOCK = 10; // how many seconds to wait before sending next PushGetBlocks()
 static const int MODIFIER_INTERVAL_SWITCH = 100;
 
-static const unsigned int BLOCK_SWITCH_TIME = 1449976180; // 07/01/2015 @ 12:00am (UTC)
+static const unsigned int BLOCK_SWITCH_TIME = 1455555555; // 07/01/2015 @ 12:00am (UTC)
 
 inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 // Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp.
@@ -57,8 +57,8 @@ static const int fHaveUPnP = true;
 static const int fHaveUPnP = false;
 #endif
 
-static const uint256 hashGenesisBlock("00000ff1e699aa185b6ac987c0c07555c9abba9b232a93455d2179f61f5cafce");
-static const uint256 hashGenesisBlockTestNet("00000ff1e699aa185b6ac987c0c07555c9abba9b232a93455d2179f61f5cafce");
+static const uint256 hashGenesisBlock("00000ab981aeaacf4bfa4bc59d1f66e3ae9bdcc99f6abb8d0715de6bd8a5dbe0");
+static const uint256 hashGenesisBlockTestNet("00000ab981aeaacf4bfa4bc59d1f66e3ae9bdcc99f6abb8d0715de6bd8a5dbe0");
 
 inline int64_t GetClockDrift(int64_t nTime)
 {
